@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         cmdMenu_clic(((ImageButton) findViewById(R.id.cmdKm)), KmActivity.class);
         cmdMenu_clic(((ImageButton) findViewById(R.id.cmdHf)), HfActivity.class);
         cmdMenu_clic(((ImageButton) findViewById(R.id.cmdHfRecap)), HfRecapActivity.class);
+        cmdMenu_clic(((ImageButton) findViewById(R.id.cmdNuitee)),Nuitees.class);
         cmdTransfert_clic();
     }
 
