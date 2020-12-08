@@ -33,7 +33,7 @@
                 android:layout_gravity="end"
                 android:layout_weight="1"
                 android:contentDescription="@string/icon_frais_km"
-                android:src="@drawable/frais_km" />
+                android:src="@drawable/frais_nuitee" />
         </LinearLayout>
 
         <LinearLayout
@@ -53,7 +53,7 @@
                 android:lines="1"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
-                android:text="@string/title_frais_km"
+                android:text="@string/title_nuitees"
                 android:textColor="@color/colorPrimaryDark" />
 
         </LinearLayout>
@@ -125,7 +125,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:labelFor="@+id/txtKm"
-                android:text="@string/km"
+                android:text="@string/nuitees"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
         </LinearLayout>
