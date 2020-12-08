@@ -96,8 +96,17 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:width="100dp"
+                android:accessibilityLiveRegion="none"
+                android:clickable="false"
+                android:contextClickable="false"
+                android:editable="false"
+                android:enabled="false"
                 android:gravity="end|center_vertical"
-                android:inputType="number">
+                android:inputType="number"
+                android:selectAllOnFocus="false"
+                android:singleLine="false"
+                android:textAllCaps="false"
+                android:textColor="#000000">
 
                 <requestFocus />
             </EditText>
@@ -160,6 +169,7 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:backgroundTint="#FFFFFF"
             android:text="@string/valider" />
 
     </LinearLayout>
