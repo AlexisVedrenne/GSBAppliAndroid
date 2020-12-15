@@ -8,6 +8,7 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Locale;
@@ -94,8 +95,8 @@ class FraisHfAdapter extends BaseAdapter {
 	}
 
 	private void SupprimerFrais(int index, Integer key,Context context){
-		Serializer.deSerialize(context);
-		Global.listFraisMois.get(key).supprFraisHf(index);
+
+		Toast.makeText(context, "Index num : " + index+" et la clee : "+key+" et objet : "+Serializer.deSerialize(context).toString(),Toast.LENGTH_SHORT).show();
 	}
 	
 }

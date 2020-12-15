@@ -52,6 +52,7 @@ abstract class Serializer {
 				ois = new ObjectInputStream(file);
 				try {
 					Object object = ois.readObject() ;
+
 					ois.close() ;
 					return object ;
 				} catch (ClassNotFoundException e) {
